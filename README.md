@@ -52,7 +52,10 @@ cargo build --release
 cargo run --release
 ```
 
-
+See code doc
+```shell
+cargo doc --open
+```
 
 ```shell
 BEARER_TOKEN=YOUR_TWITTER_BEARER_TOKEN_HERE ./target/release/twitter-media-downloader -u NASAHubble 
