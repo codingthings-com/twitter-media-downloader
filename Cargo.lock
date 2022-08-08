@@ -1351,8 +1351,9 @@ dependencies = [
 
 [[package]]
 name = "twitter-v2"
-version = "0.1.6"
-source = "git+https://github.com/ozgurcemsen/twitter-v2-rs.git?rev=a7637f29c2fafa3b4b8b2b7f114aa830f81d9b1e#a7637f29c2fafa3b4b8b2b7f114aa830f81d9b1e"
+version = "0.1.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "62d29cc13278a32722e845ce0801cc6316559693a357e11f48307313b01842be"
 dependencies = [
  "async-trait",
  "futures",

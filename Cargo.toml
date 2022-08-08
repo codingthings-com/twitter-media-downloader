@@ -18,5 +18,4 @@ reqwest = "0.11"
 [target.'cfg(unix)'.dependencies]
 openssl = { version = " 0.10.41", features = ["vendored"] }
 
-# Once https://github.com/jpopesculian/twitter-v2-rs/pull/9 is merged switch to #twitter-v2 = "0.1.XXX"
-twitter-v2 = { git = "https://github.com/ozgurcemsen/twitter-v2-rs.git", rev = "a7637f29c2fafa3b4b8b2b7f114aa830f81d9b1e"}
+twitter-v2 = "0.1.7"
