@@ -16,6 +16,6 @@ env_logger = "0.9.1"
 reqwest = "0.11.12"
 
 [target.'cfg(unix)'.dependencies]
-openssl = { version = " 0.10.41", features = ["vendored"] }
+openssl = { version = " 0.10.50", features = ["vendored"] }
 
 twitter-v2 = "0.1.7"
