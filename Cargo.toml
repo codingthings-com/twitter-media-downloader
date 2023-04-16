@@ -9,13 +9,18 @@ description="Downloads photos from \"public\" Twitter accounts to your local dis
 
 [dependencies]
 futures = "0.3.24"
-tokio = {version = "1.21.1", features = ["macros"]}
+tokio = {version = "1.24.2", features = ["macros"]}
 clap = { version = "3.2.22", features = ["derive", "env"] }
 log = "0.4.17"
 env_logger = "0.9.1"
-reqwest = "0.11.12"
+reqwest = "0.11.16"
+remove_dir_all = "0.8.0"
+h2 = "0.3.17"
 
 [target.'cfg(unix)'.dependencies]
 openssl = { version = " 0.10.50", features = ["vendored"] }
 
-twitter-v2 = "0.1.7"
+twitter-v2 = "0.1.8"
+
+[dev-dependencies]
+openssl-src = "111.25.0"
