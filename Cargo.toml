@@ -16,6 +16,7 @@ env_logger = "0.9.1"
 reqwest = "0.11.16"
 remove_dir_all = "0.8.0"
 h2 = "0.3.17"
+bumpalo = "3.11.1"
 
 [target.'cfg(unix)'.dependencies]
 openssl = { version = " 0.10.50", features = ["vendored"] }
